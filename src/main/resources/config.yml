@@ -1,0 +1,9 @@
+# Will either generate new addresses for each transaction using the seed or use a static address for every transaction
+address:
+  mode: "SEED" # SEED, ADDRESS
+  seed: "ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC"
+  #address: "YOURADDRESSHERE" # Only used for 'ADDRESS' mode
+
+storage:
+  mongo:
+    uri: "mongodb://abc:def@127.0.0.1:27017/user"
