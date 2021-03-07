@@ -6,4 +6,4 @@ address:
 
 storage:
   mongo:
-    uri: "mongodb://abc:def@127.0.0.1:27017/user"
+    uri: "mongodb://abc:def@127.0.0.1:27017/admin"
